@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body style="background-color:white">
+		<center>
+			<p>
+			<h1>LanguageLearningScript</h1>
+			Multi-Search
+			</p>
+			<p>
+			What Portuguese word would you like to multisearch? Type below, then press enter please.
+			</p>
+			<input type="text" id="boxu" autofocus>
+		</center>
+		<script>
+document.getElementById("boxu").onkeydown = function(e) {searchy(e)};
+function searchy(e) 
+{
+	if (e.which == 13)
+	{
+  	 var q = document.getElementById("boxu").value;
+	 window.open("http://translate.google.com/translate?hl=en&sl=pt&tl=en&u=http%3A%2F%2Fimages.google.com%2Fsearch%3Fq%3D" + q + "%26btnG%3DSearch%26tbm%3Disch%26hl%3Den%26sout%3D1%26biw%3D1080%26bih%3D722%26gbv%3D2%26gs_sm%3De%26gs_upl%3D2527l4331l0l4492l7l7l1l0l0l0l226l895l0.3.2l5l0");
+	 window.open("http://www.forvo.com/word/" + q + "/#pt");
+	 window.open("http://www.linguee.com/english-portuguese/search?source=portuguese&query=" + q);
+//	 window.open("http://translate.google.com/translate?sl=pt&tl=en&u=http%3A%2F%2Fwww.priberam.pt%2Fdlpo%2Fdefault.aspx%3Fpal%3D" + q);
+	 document.getElementById("boxu").value = "";		
+	}
+}
+		</script>
+	</body>
+</html>
+
+	
