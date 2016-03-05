@@ -1,5 +1,6 @@
 #.gitignore
 
+data/browser/
 *.ods
 *.csv
 *.swp

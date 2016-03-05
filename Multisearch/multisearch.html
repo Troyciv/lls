@@ -11,20 +11,24 @@
 			<p>
 			What Portuguese word would you like to multisearch? Type below, then press enter please.
 			</p>
-			<input type="text" id="boxu" autofocus>
+			<input type="text" id="searchbox" autofocus>
 		</center>
 		<script>
-document.getElementById("boxu").onkeydown = function(e) {searchy(e)};
+document.getElementById("searchbox").onkeydown = function(e) {searchy(e)};
 function searchy(e) 
 {
 	if (e.which == 13)
 	{
-  	 var q = document.getElementById("boxu").value;
-	 window.open("http://translate.google.com/translate?hl=en&sl=pt&tl=en&u=http%3A%2F%2Fimages.google.com%2Fsearch%3Fq%3D" + q + "%26btnG%3DSearch%26tbm%3Disch%26hl%3Den%26sout%3D1%26biw%3D1080%26bih%3D722%26gbv%3D2%26gs_sm%3De%26gs_upl%3D2527l4331l0l4492l7l7l1l0l0l0l226l895l0.3.2l5l0");
+  	 var q = document.getElementById("searchbox").value;
+//	 window.open("https://translate.google.com/translate?hl=en&sl=pt&tl=en&q=" + q);
+	window.open("https://images.google.com%2Fsearch%3Fq%3D" + q + "%26btnG%3DSearch%26tbm%3Disch%26hl%3Den%26sout%3D1%26biw%3D1080%26bih%3D722%26gbv%3D2%26gs_sm%3De%26gs_upl%3D2527l4331l0l4492l7l7l1l0l0l0l226l895l0.3.2l5l0");
+//	window.open("https://www.google.com.br/search?q=" + q + "&biw=1440&bih=812&site=imghp&tbs=itp:photo,sur:fc,imgo:1,isz:m&tbm=isch&source=lnt&sa=X&ved=0ahUKEwjCqcCU86bLAhWsZpoKHcDgBJwQpwUIFA&dpr=1&bav=on.2,or.&bvm=bv.115339255,d.bGs#q=" + q + "&tbs=itp:photo,sur:fc,imgo:1,isz:m,ift:jpg&tbm=isch"
 	 window.open("http://www.forvo.com/word/" + q + "/#pt");
 	 window.open("http://www.linguee.com/english-portuguese/search?source=portuguese&query=" + q);
 //	 window.open("http://translate.google.com/translate?sl=pt&tl=en&u=http%3A%2F%2Fwww.priberam.pt%2Fdlpo%2Fdefault.aspx%3Fpal%3D" + q);
-	 document.getElementById("boxu").value = "";		
+	 window.open("https://pt.wiktionary.org/wiki/" + q);
+//	 window.open("https://www.google.com.br/search?site=imghp&tbm=isch&source=hp&biw=1011&bih=607&q=" + q + "&oq=" + q + "&gs_l=img.3..0i19l10.2346.3174.0.4252.5.5.0.0.0.0.191.510.0j3.3.0..3..0...1.1.64.img..2.3.507.88RphpxO8dU#q=" + q + "&tbas=0&tbs=isz:m,imgo:1,itp:photo,ift:png&tbm=isch");
+	 document.getElementById("searchbox").value = "";		
 	}
 }
 		</script>

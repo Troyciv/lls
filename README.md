@@ -2,8 +2,12 @@
 
 This Script launches Anki, LibreOffice Calc and Chromium
 
-Dependencies: 
+### Dependencies: 
     wmctrl
 
-Usage:
+### Usage:
 ...upcomming
+
+### Licence
+
+The MIT License (MIT)
