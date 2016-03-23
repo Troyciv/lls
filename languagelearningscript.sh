@@ -6,7 +6,7 @@ anki_csv="$script_path/data/pt_vocabulary.csv"
 #specify the file LibreOffice-Calc should open on startup, file has to be in the scrpt-path
 calc_sheet_name="pt_vocabulary.ods"
 #enter urls as preferred, seperated by a spacebar / better to outsource in a config-file
-URL="https://www.semantica-portuguese.com/wp-login.php file://${0%/*}/Multisearch/multisearch.html https://www.google.com.br/imghp?hl=en&tab=wi&ei=wgMRVoCPDYHZsgHmhqToBA&ved=0CBIQqi4oAQ http://www.conjuga-me.net/" # http://www.priberam.pt/dlpo/Default.aspx http://www.linguee.de/deutsch-portugiesisch http://www.aulete.com.br/esquina http://peterjc.com/wordmultisearch/#/search https://translate.google.com/#auto/pt http://pt.forvo.com/languages/pt/ 
+URL="https://www.semantica-portuguese.com/wp-login.php file://${0%/*}/Multisearch/multisearch.html http://www.conjuga-me.net/" # http://www.priberam.pt/dlpo/Default.aspx http://www.linguee.de/deutsch-portugiesisch http://www.aulete.com.br/esquina http://peterjc.com/wordmultisearch/#/search https://translate.google.com/#auto/pt http://pt.forvo.com/languages/pt/ 
 #########################################################################################################################
 # START APPLICATIONS
 #########################################################################################################################
