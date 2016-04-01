@@ -18,9 +18,13 @@ Multsearch javascript Code by LSProgramming@yahoo.com (found on [fluent-forever.
 
 ### TO DO:
 
-* window positining
-* Media import support in Anki
+* window positioning (devislpie or wmctrl)
+* Media (images) import support in Anki
 * convert images automatic
+* vim useage for csv editing
+* implement xls2csv (odf2csv) script
+* firefox as browser
+* gnumeric usage
 
 ### Licence
 
