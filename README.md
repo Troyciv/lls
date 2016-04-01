@@ -4,7 +4,7 @@ This Script makes your everyday language routine a little easier. It launches An
 
 Right now the script is focused on learning portuguese, but it's easy to set up to your personal needs, so give it a try.
 
-Multsearch javascript Code by LSProgramming@yahoo.com (found on [fluent-forever.com](fluent-forever.com/multi-search))
+Multsearch javascript Code by LSProgramming@yahoo.com (found on [fluent-forever.com](http://www.fluent-forever.com/multi-search))
 
 ### Dependencies: 
 

@@ -5,6 +5,5 @@ data/Anki/
 *.ods
 *.csv
 *.swp
-1000nouns.txt
-1000verbs.txt
+*.txt
 
